@@ -1,0 +1,138 @@
+/* header */
+body{
+    background-color: aliceblue;
+}
+
+/* logo */
+.head img{
+    height: 140px;
+    width: 8%;
+    position: fixed;
+
+}
+
+.head{
+     
+     color: rgb(249, 238, 238);
+   background-color: black ;
+     height: 50px;
+     width: 100%;
+     top: 0%;
+    
+}
+/* header */
+     
+ul{
+    display: flex;
+    margin-right: 5%;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 60%;
+    
+}
+
+a{
+    color: rgb(241, 237, 237);
+    text-decoration: none;
+    font-size:20px;
+
+}
+a:hover{
+    color: rgb(214, 42, 7);
+}
+/* contact */
+
+/* }form .heading{
+    text-align: center;
+    border: solid 2px;
+    margin-left: 20%; 
+    margin-right: 20%;
+    margin-top: 2%;
+    color: black;
+    
+   
+}
+form .heading h1{
+    text-align: center;
+    
+form .heading p{
+    font-size: 150%;
+}
+.contact input{
+    font-size: 130%;
+    border: 1px solid black;
+    margin-left: 1%;
+    
+}
+.contact textarea{
+    margin-left: 1%;
+}
+button{
+    margin-top: 0%;
+    width: 130px;
+     height: 36px;
+     background: rgb(1, 8, 8);
+     color: white;
+     font-size: 20px;
+     margin-left: 40%;
+}
+button:hover{
+     border: 2px solid rgb(3, 8, 8);
+     background-color: transparent;
+     color:black;
+}
+@media (max-width: 800px){
+    .heading{
+        width: 80vw;
+    }
+}
+@media(max-width: 800px){
+    .head{
+        display: none;
+    }
+} */
+
+
+.contact{
+    border: solid 2px;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 3%;
+    height: 500px;
+}
+.message h1{
+    text-align: center;
+}
+p{
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 30px;
+}
+input{
+
+  margin-left: 2%;
+  font-size: 25px;
+  border-radius: 20px;
+  border: solid 2px;
+}
+textarea{
+ margin-left: 2%;
+ font-size: 25px;
+ border-radius: 20px;
+ border: solid 2px;
+}
+button{
+    margin-left: 45%;
+    border-radius: 50px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+
+}
+button :hover{
+    background-color: aqua;
+    color: black;
+}
+
+
+

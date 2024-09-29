@@ -1,0 +1,94 @@
+body{
+    background-color: aliceblue;
+}
+
+/* logo */
+.head img{
+    height: 140px;
+    width: 8%;
+    position: fixed;
+}
+
+
+.head{
+     background-color: black;
+     color: white;
+     
+     height: 50px;
+     width: 100%;
+     top: 0%;
+     
+}
+/* header */
+     
+ul{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 60%;
+    margin-right: 5%;
+
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size:20px;
+
+}
+a:hover{
+    color: aqua;
+}
+/* background */
+
+.About img{
+    height: 60%;
+    width:40%;
+    margin-top:5%;
+    margin-left: 50%;
+   justify-content: space-between;
+   float: right
+}
+/* about */
+.abouttext p{
+    color: rgb(9, 3, 3);
+    font-size: 20px;
+    margin-top: 18%;
+   
+}
+/* BUTTON */
+button{
+    background-color: black;
+    color: white;
+    margin-left: 5%;
+    height: 30px;
+    border-radius: 20%;
+}
+/* logo */
+.logo{
+    height: 13%;
+    width: 10%;
+    text-shadow: 2%;
+    margin-top: 8%;
+   
+}
+#google img{
+    margin-left: 10%;
+    height: 13%;
+}
+#linkdin img{
+    margin-left: 20%;
+    height: 13%;
+}
+
+.logo:active{
+     size: 20%;
+    
+
+}
+.logo hover{
+    size: 20%;
+}
+
+
